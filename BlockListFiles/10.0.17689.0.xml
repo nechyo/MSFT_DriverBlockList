@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<SiPolicy xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>10.0.17689.0</VersionEx>
+  <PolicyTypeID>{D2BDA982-CCF6-4344-AC5B-0B44427B6816}</PolicyTypeID>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+  </Rules>
+  <FileRules>
+    <Deny ID="ID_DENY_D_0001" Hash="0F780B7ADA5DD8464D9F2CC537D973F5AC804E9C" />
+    <Deny ID="ID_DENY_D_0002" Hash="1D1CAFC73C97C6BCD2331F8777D90FDCA57125A3" />
+    <Deny ID="ID_DENY_D_0003" Hash="42589C7CE89941060465096C4661654B43E38C1F9D05D66239825E8FCCF52705" />
+    <Deny ID="ID_DENY_D_0004" Hash="69006FBBD1B150FB9404867A5BCDC04FE0FC1BAD" />
+    <Deny ID="ID_DENY_D_0005" Hash="7FD788358585E0B863328475898BB4400ED8D478466D1B7F5CC0252671456CC8" />
+    <Deny ID="ID_DENY_D_0006" Hash="BB83738210650E09307CE869ACA9BFA251024D3C47B1006B94FCE2846313F56E" />
+    <Deny ID="ID_DENY_D_0007" Hash="EA360A9F23BB7CF67F08B88E6A185A699F0C5410" />
+    <Deny ID="ID_DENY_D_0008" Hash="FAA08CB609A5B7BE6BFDB61F1E4A5E8ADF2F5A1D2492F262483DF7326934F5D4" />
+    <Allow ID="ID_ALLOW_A_0009" FileName="*" />
+    <Allow ID="ID_ALLOW_A_000A" FileName="*" />
+    <FileAttrib ID="ID_FILEATTRIB_F_000B" FileName="cpuz.sys" MaximumFileVersion="1.0.4.3" />
+    <FileAttrib ID="ID_FILEATTRIB_F_000C" FileName="ElbyCDIO.sys" MaximumFileVersion="6.0.3.2" />
+    <FileAttrib ID="ID_FILEATTRIB_F_000D" FileName="libnicm.sys" MaximumFileVersion="3.1.12.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_000E" FileName="NICM.SYS" MaximumFileVersion="3.1.12.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_000F" FileName="nscm.sys" MaximumFileVersion="3.1.12.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_0010" FileName="sandra.sys" MaximumFileVersion="10.12.0.0" />
+  </FileRules>
+  <Signers>
+    <Signer Name="Signer 1" ID="ID_SIGNER_S_0001">
+      <CertRoot Type="TBS" Value="4843A82ED3B1F2BFBEE9671960E1940C942F688D" />
+      <CertPublisher Value="CPUID" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000B" />
+    </Signer>
+    <Signer Name="Signer 2" ID="ID_SIGNER_S_0002">
+      <CertRoot Type="TBS" Value="D8BE9E4D9074088EF818BC6F6FB64955E90378B2754155126FEEBBBD969CF0AE" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000B" />
+    </Signer>
+    <Signer Name="Signer 3" ID="ID_SIGNER_S_0003">
+      <CertRoot Type="TBS" Value="EEC58131DC11CD7F512501B15FDBC6074C603B68CA91F7162D5A042054EDB0CF" />
+      <CertPublisher Value="CPUID" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000B" />
+    </Signer>
+    <Signer Name="Signer 4" ID="ID_SIGNER_S_0004">
+      <CertRoot Type="TBS" Value="041750993D7C9E063F02DFE74699598640911AAB" />
+      <CertPublisher Value="Elaborate Bytes AG" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000C" />
+    </Signer>
+    <Signer Name="Signer 5" ID="ID_SIGNER_S_0005">
+      <CertRoot Type="TBS" Value="4CDC38C800761463749C3CBD94A12F32E49877BF" />
+      <CertPublisher Value="Novell, Inc." />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000D" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000E" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_000F" />
+    </Signer>
+    <Signer Name="Signer 6" ID="ID_SIGNER_S_0006">
+      <CertRoot Type="TBS" Value="172F39BCA3DDA7C6D5169C96B34A5FE7E96FF0BD" />
+      <CertPublisher Value="SiSoftware Ltd" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_0010" />
+    </Signer>
+    <Signer Name="Signer 7" ID="ID_SIGNER_S_0007">
+      <CertRoot Type="TBS" Value="F7B6EEB3A567223000A61F68C53B458193557C17E5D512D2825BCB13E5FC9BE5" />
+      <CertPublisher Value="Open Source Developer, Benjamin Delpy" />
+    </Signer>
+    <Signer Name="Signer 8" ID="ID_SIGNER_S_0008">
+      <CertRoot Type="TBS" Value="C7FC1727F5B75A6421A1F95C73BBDB23580C48E5" />
+      <CertPublisher Value="Sokno S.R.L." />
+    </Signer>
+    <Signer Name="Signer 9" ID="ID_SIGNER_S_0009">
+      <CertRoot Type="TBS" Value="589A7D4DF869395601BA7538A65AFAE8C4616385" />
+      <CertPublisher Value="ChongKim Chan" />
+    </Signer>
+    <Signer Name="Signer 10" ID="ID_SIGNER_S_000A">
+      <CertRoot Type="TBS" Value="041750993D7C9E063F02DFE74699598640911AAB" />
+      <CertPublisher Value="innotek GmbH" />
+    </Signer>
+  </Signers>
+  <SigningScenarios>
+    <SigningScenario ID="ID_SIGNINGSCENARIO_DRIVERS_1" Value="131">
+      <ProductSigners>
+        <DeniedSigners>
+          <DeniedSigner SignerId="ID_SIGNER_S_0005" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0007" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0009" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0006" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0008" />
+          <DeniedSigner SignerId="ID_SIGNER_S_000A" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0003" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0004" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0001" />
+          <DeniedSigner SignerId="ID_SIGNER_S_0002" />
+        </DeniedSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_DENY_D_0001" />
+          <FileRuleRef RuleID="ID_DENY_D_0002" />
+          <FileRuleRef RuleID="ID_DENY_D_0003" />
+          <FileRuleRef RuleID="ID_DENY_D_0004" />
+          <FileRuleRef RuleID="ID_DENY_D_0005" />
+          <FileRuleRef RuleID="ID_DENY_D_0006" />
+          <FileRuleRef RuleID="ID_DENY_D_0007" />
+          <FileRuleRef RuleID="ID_DENY_D_0008" />
+          <FileRuleRef RuleID="ID_ALLOW_A_000A" />
+        </FileRulesRef>
+      </ProductSigners>
+      <TestSigners />
+      <TestSigningSigners />
+    </SigningScenario>
+    <SigningScenario ID="ID_SIGNINGSCENARIO_WINDOWS" Value="12">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_0009" />
+        </FileRulesRef>
+      </ProductSigners>
+      <TestSigners />
+      <TestSigningSigners />
+    </SigningScenario>
+  </SigningScenarios>
+  <Settings>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
+      <Value>
+        <String>10.0.17689.0</String>
+      </Value>
+    </Setting>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Name">
+      <Value>
+        <String>Microsoft Windows Driver Policy</String>
+      </Value>
+    </Setting>
+  </Settings>
+</SiPolicy>

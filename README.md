@@ -1,16 +1,22 @@
-# MSFT_DriverBlockList
-Repository that holds the default Microsoft Driver Block Lists based off of OS build. 
+# MSFT_DriverBlockList (Insider Preview)
+Repository that holds the default Microsoft Driver Block Lists based off of OS build.
 
-Microsoft default driver block list != Microsoft recommended driver block list. The recommended driver block list that can be found here: [Microsoft recommended driver block rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/microsoft-recommended-driver-block-rules)
+Microsoft default driver block list != Microsoft recommended driver block list. The recommended driver block list can be found here: [Microsoft recommended driver block rules](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/design/microsoft-recommended-driver-block-rules)
 
-| OS Version | Block List | 
-| ---------- | ---------- |
-| 10_0_19045_2965 | [10_0_19045_2965.xml](/BlockListFiles/10_0_19045_2965.xml) |
-| 10_0_19045_3271 | [10_0_19045_3271.xml](/BlockListFiles/10_0_19045_3271.xml) |
-| 10_0_22621_1702 | [10_0_22621_1702.xml](/BlockListFiles/10_0_22621_1702.xml) |
-| 10_0_22621_2070 | [10_0_22621_2070.xml](/BlockListFiles/10_0_22621_2070.xml) |
-| 10_0_22621_3085 | [10_0_22621_3085.xml](/BlockListFiles/10_0_22621_3085.xml) |
-| 10_0_22631_3447 | [10_0_22631_3447.xml](/BlockListFiles/10_0_22631_3447.xml) |
-| 10_0_22631_3520 | [10_0_22631_3520.xml](/BlockListFiles/10_0_22631_3520.xml) |
-| 10_0_26100_1 | [10_0_26100_1.xml](/BlockListFiles/10_0_26100_1.xml) |
-
+| OS Version   | Block List                                    |
+| ------------ | --------------------------------------------- |
+| 10.0.17689.0 | [10.0.17689.0.xml](/BlockListFiles/10.0.17689.0.xml) |
+| 10.0.19010.0 | [10.0.19010.0.xml](/BlockListFiles/10.0.19010.0.xml) |
+| 10.0.21250.0 | [10.0.21250.0.xml](/BlockListFiles/10.0.21250.0.xml) |
+| 10.0.22350.0 | [10.0.22350.0.xml](/BlockListFiles/10.0.22350.0.xml) |
+| 10.0.25090.0 | [10.0.25090.0.xml](/BlockListFiles/10.0.25090.0.xml) |
+| 10.0.25210.0 | [10.0.25210.0.xml](/BlockListFiles/10.0.25210.0.xml) |
+| 10.0.25291.0 | [10.0.25291.0.xml](/BlockListFiles/10.0.25291.0.xml) |
+| 10.0.25507.0 | [10.0.25507.0.xml](/BlockListFiles/10.0.25507.0.xml) |
+| 10.0.25873.0 | [10.0.25873.0.xml](/BlockListFiles/10.0.25873.0.xml) |
+| 10.0.25895.0 | [10.0.25895.0.xml](/BlockListFiles/10.0.25895.0.xml) |
+| 10.0.25957.0 | [10.0.25957.0.xml](/BlockListFiles/10.0.25957.0.xml) |
+| 10.0.25965.0 | [10.0.25965.0.xml](/BlockListFiles/10.0.25965.0.xml) |
+| 10.0.26010.0 | [10.0.26010.0.xml](/BlockListFiles/10.0.26010.0.xml) |
+| 10.0.26025.0 | [10.0.26025.0.xml](/BlockListFiles/10.0.26025.0.xml) |
+| 10.0.27720.0 | [10.0.27720.0.xml](/BlockListFiles/10.0.27720.0.xml) |
